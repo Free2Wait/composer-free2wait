@@ -21,7 +21,7 @@ Monetizing open-source development: "You are free to wait for the package downlo
 3) The link above would lead to the simple checkout form, where non-waiting access could be bought for month by Paypal for affordable amount (default: $5).
 
 # Idea
-The idea is simple: open-source remains free to use, free to distribute (all of the sources at any moment could be downloaded from Github without any restriction) - but if you feel uncomfortable waiting for package downloading, you should purchase non-waiting access, which will entirely to the cent go to the package developer to support open-source development.
+The idea is simple & similar to the way free-to-play works in gamedev industry: open-source remains free to use, free to distribute (all of the sources at any moment could be downloaded from Github without any restriction) - but if you feel uncomfortable waiting for package downloading, you should purchase non-waiting access, which will entirely to the cent go to the package developer to support open-source development.
 Individuals shouldn't notice any difference - while large corporations, who has complex Continuous Integration setups based on Composer, could discover that it's uncomfortable for them to have such slow builds and it will make them purchasing non-waiting access, which in turn will help package developers to continue their work on open-source development.
 
 # Monetization
