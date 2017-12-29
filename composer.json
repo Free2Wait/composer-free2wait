@@ -1,0 +1,26 @@
+{
+    "name": "free2wait/composer-free2wait",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.0",
+        "composer/composer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Free2Wait\\": "src"
+        }
+    },
+    "extra": {
+        "class": "Free2Wait\\Plugin"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "pre-package-install": [
+            "Free2Wait\\Plugin::prePackageInstall"
+        ],
+        "pre-package-update": [
+            "Free2Wait\\Plugin::prePackageUpdate"
+        ]
+    }
+}
