@@ -52,3 +52,14 @@ For now it is just a proof-of-concept. The plan is as follows:
 - [x] (done) Craft MVP (minimum viable product).
 - [ ] (in progress) Check that package developers are interested to merge PR, introducing dependency from this Composer plugin. Gather feedback to extend or refactor the service.
 - [ ] (later) Check that package users are willing to pay for non-waiting access to download. Gather feedback to extend or refactor the service.
+
+## How effective it is? How much money it will bring to package developer?
+
+For now there is no real statistics - as the project is at early stages of customer development. But in theory the estimated  calculation is as follows:
+- Number of package installs per month: 1000
+- Conversion install to sale of non-waiting access: 3% (it's a common e-commerce conversion from view to sale; in our case it could be less or bigger - nobody knows)
+- Average check: $5
+
+=> Package developer profit per month per each 1000 of installs = 1000 * 0.03 * 5 = **$150/month**
+
+In case if package is popular enough for several thousands installs per month - this estimated calculation should be proportionally increased.
