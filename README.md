@@ -14,11 +14,13 @@ Monetizing open-source development: "You are free to wait for the package downlo
   - Whether the IP, where Composer is run, have not already bought non-waiting access for month to download this concrete package.
 - If both is true (has setting & not bought), it shows such message:
 
-> You are free to wait for the package download - but in case if time is money for you, please consider buying non-waiting access to the package: https://example.com.com/?project={$project}&ip={$ip} - every cent goes to the package developer to incentive the open-source development.
+> You are free to wait for the package download - but in case if time is money for you, please consider buying non-waiting access to the package: https://example.com/?project={$project}&ip={$ip} - every cent goes to the package developer to incentive the open-source development.
 
 \- and makes user to wait for affordable time period (default: 10 seconds).
 
 3) The link above would lead to the simple checkout form, where non-waiting access could be bought for month by Paypal for affordable amount (default: $5).
+
+4) Every cent goes to the package developer.
 
 # Idea
 The idea is simple & similar to the way free-to-play works in gamedev industry: open-source remains free to use, free to distribute (all of the sources at any moment could be downloaded from Github without any restriction) - but if you feel uncomfortable waiting for package downloading, you should purchase non-waiting access, which will entirely to the cent go to the package developer to support open-source development.
@@ -39,3 +41,7 @@ See also for reference:
 ## Is this service free of charge? Is there any fee? How it is monetized?
 
 No fee is charged. Plugin "eats its dog food": is being monetized the same way it offers to others - by selling non-waiting access to its download.
+
+## Shouldn't security releases be downloaded as soon as possible?
+
+In case if 10-seconds-delay matters, we could exclude special tags from monetization to make them be downloaded without any delay.
