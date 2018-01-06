@@ -24,5 +24,18 @@ Monetizing open-source development: "You are free to wait for the package downlo
 The idea is simple & similar to the way free-to-play works in gamedev industry: open-source remains free to use, free to distribute (all of the sources at any moment could be downloaded from Github without any restriction) - but if you feel uncomfortable waiting for package downloading, you should purchase non-waiting access, which will entirely to the cent go to the package developer to support open-source development.
 Individuals shouldn't notice any difference - while large corporations, who has complex Continuous Integration setups based on Composer, could discover that it's uncomfortable for them to have such slow builds and it will make them purchasing non-waiting access, which in turn will help package developers to continue their work on open-source development.
 
-# Monetization
+# FAQ
+## "Open-source" & "monetization": isn't there a contradiction? Does it correspond to open-source spirit? Does not it violate any license?
+
+There is no contradiction, it fully complies to GNU license. It's a common misconception to treat "free" in terms of "no price". As Richard Stallman stated:
+
+> Free software is a matter of liberty, not price. To understand the concept, you should think of free as in free speech, not as in free beer.
+
+See also for reference:
+- https://en.wikipedia.org/wiki/Free_software
+- https://ell.stackexchange.com/a/25k19
+- https://www.gnu.org/philosophy/selling.html
+
+## Is this service free of charge? Is there any fee? How it is monetized?
+
 No fee is charged. Plugin "eats its dog food": is being monetized the same way it offers to others - by selling non-waiting access to its download.
