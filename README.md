@@ -45,3 +45,10 @@ No fee is charged. Plugin "eats its dog food": is being monetized the same way i
 ## Shouldn't security releases be downloaded as soon as possible?
 
 In case if 10-seconds-delay matters, we could exclude special tags from monetization to make them be downloaded without any delay.
+
+## What is the current state of the project?
+
+For now it is just a proof-of-concept. The plan is as follows:
+- [x] (done) Craft MVP (minimum viable product).
+- [ ] (in progress) Check that package developers are interested to merge PR, introducing dependency from this Composer plugin. Gather feedback to extend or refactor the service.
+- [ ] (later) Check that package users are willing to pay for non-waiting access to download.
