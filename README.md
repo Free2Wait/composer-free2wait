@@ -51,4 +51,4 @@ In case if 10-seconds-delay matters, we could exclude special tags from monetiza
 For now it is just a proof-of-concept. The plan is as follows:
 - [x] (done) Craft MVP (minimum viable product).
 - [ ] (in progress) Check that package developers are interested to merge PR, introducing dependency from this Composer plugin. Gather feedback to extend or refactor the service.
-- [ ] (later) Check that package users are willing to pay for non-waiting access to download.
+- [ ] (later) Check that package users are willing to pay for non-waiting access to download. Gather feedback to extend or refactor the service.
